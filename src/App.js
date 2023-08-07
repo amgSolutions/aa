@@ -30,7 +30,7 @@ import ContectUs from "./pages/ContectUs";
 function App() {
   return (
     <>
-      <BrowserRouter basename="react/demo">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="page-wraper">
           <Routes>
             <Route path="/under-construct" element={<Construction />} />

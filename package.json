@@ -2,7 +2,7 @@
   "name": "visva",
   "version": "0.1.0",
   "homepage": "https://amgSolutions.github.io/aa/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@react-spring/parallax": "^9.7.2",
     "@react-spring/web": "^9.7.2",
